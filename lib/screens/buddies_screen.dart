@@ -63,7 +63,7 @@ class BuddiesScreen extends StatelessWidget {
                     margin: const EdgeInsets.only(bottom: 12),
                     child: ListTile(
                       leading: CircleAvatar(
-                        backgroundColor: AppTheme.primaryColor.withOpacity(0.1),
+                        backgroundColor: AppTheme.primaryColor.withValues(alpha: 0.1),
                         child: Text(
                           names[index].split(' ').map((e) => e[0]).join(''),
                           style: TextStyle(

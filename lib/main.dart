@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/onboarding_screen.dart';
+import 'screens/main_nav_screen.dart';
 import 'utils/theme.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class PortionApp extends StatelessWidget {
     return MaterialApp(
       title: 'Portion',
       theme: AppTheme.lightTheme,
-      home: const OnboardingScreen(),
+      home: const MainNavScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
